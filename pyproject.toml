@@ -3,12 +3,13 @@ requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dolar-scrap"
+name = "currencies-python"
 authors = [{name="Tomas Vazquez", email = 'vazquezt2018@gmail.com'}]
+description = "currencies-python is a package that you can use to take the current value of the dollar in Argentina"
 dynamic = ["version"]
 requires-python = ">= 3.8"
 readme = "README.md"
-keywords = ["web", "dolar", "scrap", "dollar"]
+keywords = ["web", "dolar", "scrap", "dollar", "currencies"]
 classifiers = [
   # How mature is this project? Common values are
   #   3 - Alpha
