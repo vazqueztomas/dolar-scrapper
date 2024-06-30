@@ -1,7 +1,5 @@
-# Web Scrapping with Python using Beautiful Soup.
+# Pycurrencies
 
-URL scrape: https://dolarhoy.com/
-Pipfile is used to lock dependencies.
-The project uses pyproject.toml as a convention.
+Pycurrencies is a project that allows the user to obtain different types of prices for various currencies through the console.
 
-pre-commit is used in order to have clear code, with linting and formatting uses.
+It is made in Python and is open-source.
