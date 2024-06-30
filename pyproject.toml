@@ -1,12 +1,15 @@
 [build-system]
-requires = ["setuptools >= 61.0"]
-build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools ~= 68.2",
+    "wheel ~= 0.41.2",
+    "setuptools-pipfile ~= 0.7.0",
+]
 
 [project]
-name = "currencies-python"
+name = "pycurrencies"
 authors = [{name="Tomas Vazquez", email = 'vazquezt2018@gmail.com'}]
-description = "currencies-python is a package that you can use to take the current value of the dollar in Argentina"
-dynamic = ["version"]
+version = "0.0.1"
+description = "pycurrencies is a package that you can use to take the current value of the dollar in Argentina"
 requires-python = ">= 3.8"
 readme = "README.md"
 keywords = ["web", "dolar", "scrap", "dollar", "currencies"]
@@ -33,3 +36,10 @@ classifiers = [
 ]
 [project.urls]
 repository = "https://github.com/vazqueztomas/dolar-scrapper"
+
+[project.scripts]
+dolar-scrap = "pycurrencies.__main__.py:main"
+
+
+[tool.setuptools]
+py-modules = []
