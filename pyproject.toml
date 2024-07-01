@@ -8,11 +8,12 @@ requires = [
 [project]
 name = "pycurrencies"
 authors = [{name="Tomas Vazquez", email = 'vazquezt2018@gmail.com'}]
-version = "0.0.1"
+version = "1.0.1"
 description = "pycurrencies is a package that you can use to take the current value of the dollar in Argentina"
 requires-python = ">= 3.8"
 readme = "README.md"
 keywords = ["web", "dolar", "scrap", "dollar", "currencies"]
+dependencies = ['termcolor', 'requests', 'typer', 'bs4', 'typing-extensions']
 classifiers = [
   # How mature is this project? Common values are
   #   3 - Alpha
@@ -37,9 +38,7 @@ classifiers = [
 [project.urls]
 repository = "https://github.com/vazqueztomas/dolar-scrapper"
 
-[project.scripts]
-dolar-scrap = "pycurrencies.__main__.py:main"
-
-
 [tool.setuptools]
-py-modules = []
+
+[project.scripts]
+dolar-scrap = "pycurrencies.main:main"
