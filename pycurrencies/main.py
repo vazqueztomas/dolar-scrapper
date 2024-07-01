@@ -7,6 +7,8 @@ from pycurrencies.dolar_scrapper import DolarScrapper
 
 URL = "https://dolarhoy.com/"
 
+app = typer.Typer(invoke_without_command=True)
+
 
 def dolar_price():
     scraper = DolarScrapper(URL)
@@ -22,6 +24,7 @@ def welcome_message() -> str:
     """
 
 
+@app.callback(invoke_without_command=True)
 def main(
     dolar: Annotated[
         Optional[bool],
@@ -38,4 +41,4 @@ def main(
 
 
 if __name__ == "__main__":
-    typer.run(main)
+    app()
