@@ -8,13 +8,10 @@ requests = "*"
 bs4 = "*"
 termcolor = "*"
 typer = "*"
+build = "*"
 
 [dev-packages]
 pre-commit = "3.7.0"
-
-[requires]
-python_version = "3.12"
-
 
 [scripts]
 build = "python3 -m build"

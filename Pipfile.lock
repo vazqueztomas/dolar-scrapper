@@ -1,12 +1,10 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4a7c69b6d55ada730cc23a1329aa99666a076434463c0ab05f4415c9de930757"
+            "sha256": "42d236b2d9c3f3e7e95e463bb35fa2453431b40a775282d600bb08f7d7dec3e0"
         },
         "pipfile-spec": 6,
-        "requires": {
-            "python_version": "3.12"
-        },
+        "requires": {},
         "sources": [
             {
                 "name": "pypi",
@@ -31,6 +29,15 @@
             ],
             "index": "pypi",
             "version": "==0.0.2"
+        },
+        "build": {
+            "hashes": [
+                "sha256:526263f4870c26f26c433545579475377b2b7588b6f1eac76a001e873ae3e19d",
+                "sha256:75e10f767a433d9a86e50d83f418e83efc18ede923ee5ff7df93b6cb0306c5d4"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==1.2.1"
         },
         "certifi": {
             "hashes": [
@@ -168,6 +175,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==0.1.2"
         },
+        "packaging": {
+            "hashes": [
+                "sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002",
+                "sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==24.1"
+        },
         "pygments": {
             "hashes": [
                 "sha256:786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199",
@@ -175,6 +190,14 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==2.18.0"
+        },
+        "pyproject-hooks": {
+            "hashes": [
+                "sha256:4b37730834edbd6bd37f26ece6b44802fb1c1ee2ece0e54ddff8bfc06db86965",
+                "sha256:7ceeefe9aec63a1064c18d939bdc3adf2d8aa1988a510afec15151578b232aa2"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==1.1.0"
         },
         "requests": {
             "hashes": [
